@@ -25,11 +25,4 @@ Fusion Model Accuracy: ~83%
 Improvement: +2.93%
 This proves that tumor boundary geometry adds discriminative value.
 
-Repository                Contents
-File	Descriptio
-fusion_model.h5          	Trained fusion model (CNN + shape features)
-baseline_cnn_model.h5    	CNN-only baseline model
-shape_scaler.pkl	        StandardScaler for 6 shape features
-Welcome_To_Colab.ipynb   	Full training notebook (Google Colab)
-README.md	                Project documentation
-
+Repository Contents: fusion_model.h5 (fusion DL model), baseline_cnn_model.h5 (CNN baseline), shape_scaler.pkl (shape feature scaler), Welcome_To_Colab.ipynb (training notebook), README.md (documentation)
